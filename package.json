@@ -1,0 +1,36 @@
+{
+  "name": "webpack-startpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --profile",
+    "start": "webpack-dev-server "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "clean-webpack-plugin": "^0.1.9",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "font-awesome": "^4.6.3",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.21.0",
+    "node-sass": "^3.8.0",
+    "normalize-scss": "^5.0.3",
+    "postcss-loader": "^0.9.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.2.0"
+  }
+}
